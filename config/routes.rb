@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "restaurants#index"
   # Routes for the Owner_response resource:
   # CREATE
   get "/owner_responses/new", :controller => "owner_responses", :action => "new"
